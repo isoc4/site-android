@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('/desafios/d010/fonte/idroid.otf') format('opentype');
+    src: url('/fonte/idroid.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'regular';
-    src: url('/desafios/d010/fonte/regular.ttf') format('truetype');
+    src: url('/fonte/regular.ttf') format('truetype');
 }
 
 *{
@@ -82,7 +82,7 @@ nav > a{
     font-family: var(--fonteheader), var(--fontepadrao);
     color: var(--cor11);
     text-decoration: none;
-    padding: 5px;
+    padding: 5.3px;
     text-shadow: 2px 2px 0px rgba(131, 131, 131, 0.534);
 }
 
@@ -103,6 +103,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    padding: 6px;
 }
 
 main img{
@@ -118,7 +119,6 @@ footer{
 
 article > h1{
     font-family: var(--fontetitulo), var(--fontepadrao);
-    margin: 8px 0px 0px 3px;
     background-color: #36ca76;
     border-radius: 13px;
     color: var(--cor08);
