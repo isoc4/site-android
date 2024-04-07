@@ -197,12 +197,7 @@ a:hover{
     text-indent: 16px;
 }
 
-.articlelinks{
-    color: var(--cor08);
-    font-weight: bold;
-}
-
-div.video{
+#video{
     position: relative;
     height: 0px;
     margin: 0px -20px 15px -20px;
@@ -211,12 +206,17 @@ div.video{
     padding-bottom: 56%;
 }
 
-.video > iframe{
+#video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+.articlelinks{
+    color: var(--cor08);
+    font-weight: bold;
 }
 
 a.externo::after{
