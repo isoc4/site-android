@@ -100,7 +100,7 @@ main{
     border: 2px var(--cor07) solid;
     border-radius: 4px;
     box-shadow: 4px 4px 10px #14492a71;
-    min-width: 300px;
+    min-width: 239px;
     max-width: 1000px;
     margin: auto;
     padding: 6px;
@@ -112,9 +112,14 @@ main img{
 
 footer{
     font-family: var(--fonteheader), var(--fontepadrao);
+    text-align: center;
     background-color: var(--cor09);
     text-align: center;
     margin-top: 20px;
+}
+
+footer > p{
+    margin: 0px;
 }
 
 article > h1{
@@ -123,7 +128,7 @@ article > h1{
     border-radius: 13px;
     color: var(--cor08);
     padding: 5px;
-    width: 400px;
+    width: 60vw;
     text-align: center;
     margin: auto;
     text-shadow: 2px 2px 2px #0b251750;
